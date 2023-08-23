@@ -1,0 +1,32 @@
+body
+{
+    height: 100vh;
+    background-color: rgb(29, 29, 29);
+}
+
+
+#gridContainer
+{
+    margin: auto auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 50rem;
+    aspect-ratio: 1;
+    
+}
+
+
+
+.gridElement
+{
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: dotted ;
+    border-color: rgba(117, 117, 117, 0.1);
+    background-color: white;
+}
+
+.gridElement.hovered
+{
+    background-color: black;
+}
