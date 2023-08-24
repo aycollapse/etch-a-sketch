@@ -8,14 +8,11 @@ body
 #gridContainer
 {
     margin: auto auto;
-    display: flex;
-    flex-wrap: wrap;
-    height: 50rem;
+    display: grid;
+    height: 30rem;
     aspect-ratio: 1;
     
 }
-
-
 
 .gridElement
 {
@@ -24,9 +21,4 @@ body
     border-style: dotted ;
     border-color: rgba(117, 117, 117, 0.1);
     background-color: white;
-}
-
-.gridElement.hovered
-{
-    background-color: black;
 }
