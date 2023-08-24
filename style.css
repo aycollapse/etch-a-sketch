@@ -8,7 +8,8 @@ body
 #gridContainer
 {
     margin: auto auto;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     height: 30rem;
     aspect-ratio: 1;
     
